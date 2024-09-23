@@ -1,15 +1,16 @@
 name: minimal-hand
 channels:
+  - conda-forge
   - defaults
 dependencies:
+  - python=3.6
+  - numpy=1.18.1
+  - tensorflow-gpu=1.14.0
+  - transforms3d=0.3.1
+  - opencv=3.4.3
   - pip
-  - python=3.8
-
   - pip:
-      - pygame
-      - open3d
-      - tensorflow_gpu
-      - transforms3d
-      - keyboard
-      - opencv_python
-      - numpy
+      - pygame==1.9.4
+      - open3d==0.9
+      - keyboard==0.13.4
+      - opencv-python==3.4.3.18

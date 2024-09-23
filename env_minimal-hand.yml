@@ -1,0 +1,15 @@
+name: minimal-hand
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.8
+
+  - pip:
+      - pygame
+      - open3d
+      - tensorflow_gpu
+      - transforms3d
+      - keyboard
+      - opencv_python
+      - numpy
